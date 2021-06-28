@@ -6,3 +6,23 @@
 .banner-paragraph {
   margin-bottom: 50px;
 }
+
+.intro {
+  background-color: yellowgreen;
+}
+
+.content-2 {
+  background-color: #222;
+}
+
+.promo {
+  background-color: brown;
+}
+
+.contact {
+  background-color: yellowgreen
+}
+
+.page-footer {
+  text-align: center;
+}
