@@ -3,16 +3,52 @@
   background-size: cover;
 }
 
+h1 {
+  font-size: 50px;
+  font-weight: 130;
+}
+
 .banner-paragraph {
   margin-bottom: 50px;
 }
 
 .intro {
   background-color: yellowgreen;
+  text-align: center;
+  color: white;
+  padding: 70px 0;
+}
+
+.btn-primary {
+  border-color: yellowgreen;
+  background-color: yellowgreen;
+}
+
+.btn {
+  text-transform: uppercase;
+  border-radius: 300px;
+}
+
+.img-circle {
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+}
+
+.content {
+  padding: 100px 0;
 }
 
 .content-2 {
   background-color: #222;
+}
+
+.content-3 {
+  text-align: center;
+}
+
+.fontawesome {
+  color: yellowgreen;
 }
 
 .promo {
@@ -20,9 +56,36 @@
 }
 
 .contact {
-  background-color: yellowgreen
+  background-color: yellowgreen;
+  color: white;
+  padding: 80px 0;
+}
+
+.section-heading {
+  padding-bottom: 10px;
+}
+
+.fa-envelope-open-text {
+  padding-top: 20px;
+}
+
+.fa-phone {
+  padding-top: 10px;
 }
 
 .page-footer {
   text-align: center;
+}
+
+.small-print {
+  padding: 50px 0 40px;
+}
+
+@media (min-width: 768px) {
+
+h1 {
+  font-size: 100px;
+  font-weight: 300;
+}
+
 }
