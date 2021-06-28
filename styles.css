@@ -1,1 +1,8 @@
+.banner-image {
+  background-image: url('unnamed.jpg');
+  background-size: cover;
+}
 
+.banner-paragraph {
+  margin-bottom: 50px;
+}
