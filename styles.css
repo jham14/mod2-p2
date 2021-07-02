@@ -3,6 +3,10 @@
   background-size: cover;
 }
 
+.rounded-circle {
+  margin-right: 7px;
+}
+
 h1 {
   font-size: 50px;
   font-weight: 130;
@@ -41,6 +45,41 @@ h1 {
 
 .content-2 {
   background-color: #222;
+}
+
+.promo-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.item-1 {
+  background: url(Unleash.jpg);
+}
+
+.item-2 {
+  background: url(synergize.jpg);
+}
+
+.item-3 {
+  background: url(procrastinate.jpg);
+}
+
+.item-1, .item-2, .item3 {
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.promo-item {
+  text-align: center;
+  height: 200px;
+  line-height: 180px;
+}
+
+h3 {
+  display: inline-block;
+  vertical-align: middle;
+  color: white;
+  font-size: 40px;
 }
 
 .content-3 {
